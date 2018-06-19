@@ -116,6 +116,7 @@ export default {
           alert(error.response.data.error_msg)
         })
       }
+	  this.$options.methods.loadMemberCardList ()
     }
   },
 
